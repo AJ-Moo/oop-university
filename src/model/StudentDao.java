@@ -44,6 +44,10 @@ public class StudentDao {
         return students;
     }
 
+    public void add(Student student) {
+
+    }
+
     public void close() {
         try {
             this.connection.close();
